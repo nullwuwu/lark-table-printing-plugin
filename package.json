@@ -1,0 +1,29 @@
+{
+  "name": "my-lark-plugin",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
+    "@lark-base-open/js-sdk": "^0.5.0",
+    "element-plus": "^2.9.10",
+    "vue": "^3.5.13",
+    "vue-draggable-plus": "^0.6.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.3",
+    "@vue/tsconfig": "^0.7.0",
+    "sass-embedded": "^1.89.0",
+    "typescript": "~5.8.3",
+    "unplugin-auto-import": "^19.2.0",
+    "unplugin-icons": "^22.1.0",
+    "unplugin-vue-components": "^28.5.0",
+    "vite": "^6.3.5",
+    "vue-tsc": "^2.2.8"
+  }
+}
