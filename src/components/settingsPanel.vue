@@ -3,7 +3,7 @@
     <el-collapse 
     ref="el" v-model="activeNames" >
       <el-collapse-item 
-      v-for="(item, index) in list" 
+      v-for="item in list" 
       :key="item.fieldId" 
       :title="item.name" 
       :name="item.fieldId">
