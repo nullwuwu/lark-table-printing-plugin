@@ -124,7 +124,7 @@ const usePrint = () => {
     settingList.value = list;
 
     const result = await bitable.bridge.setData(SETTING_KEY, list);
-    
+
     if (!showToast) {
       return;
     }
@@ -138,9 +138,11 @@ const usePrint = () => {
     } else {
       bitable.ui.showToast({
         toastType: ToastType.error,
-          message: '更新打印配置失败',
-        });
-      }
+        message: '更新打印配置失败',
+      });
+    }
+
+    getCurrentRecord();
   }
 
   const handleSetting = () => {
