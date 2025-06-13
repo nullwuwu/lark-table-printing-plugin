@@ -1,6 +1,7 @@
 {
   "name": "my-lark-plugin",
   "private": true,
+  "output": "dist",
   "version": "0.0.0",
   "type": "module",
   "files": [
